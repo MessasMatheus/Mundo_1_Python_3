@@ -2,16 +2,16 @@
 # a media final do ano letivo.
 
 print('Escola, Aviação!')
-n1 = float(input('Digite a nota do 1º bimestre: '))
-n2 = float(input('Digite a nota do 2º bimestre: '))
-n3 = float(input('Digite a nota do 3º bimestre: '))
-n4 = float(input('Digite a nota do 4º bimestre: '))
+nota1 = float(input('Digite a nota do 1º bimestre: '))
+nota2 = float(input('Digite a nota do 2º bimestre: '))
+nota3 = float(input('Digite a nota do 3º bimestre: '))
+nota4 = float(input('Digite a nota do 4º bimestre: '))
 
-s1 = (n1 + n2)/2
-s2 = (n3 + n4)/2
-mf = (n1 + n2 + n3 + n4)/4
+mediasemestre1 = (nota1 + nota2)/2
+mediasemestre2 = (nota3 + nota4)/2
+mediafinal = (nota1 + nota2 + nota3 + nota4)/4
 
-print('Esse aluno, tirou essas notas. 1º: {}, 2º: {}, 3º: {}, 4º: {}'.format(n1, n2, n3, n4))
-print('A média do 1º semestre foi: {}, e a média do 2º semestre foi: {}'.format(s1, s2))
-print('Consegiu essa média final : {}'.format(mf))
+print('Esse aluno, tirou essas notas. 1º: {}, 2º: {}, 3º: {}, 4º: {}'.format(nota1, nota2, nota3, nota4))
+print('A média do 1º semestre foi: {}, e a média do 2º semestre foi: {}'.format(mediasemestre1, mediasemestre2))
+print('Consegiu essa média final : {}'.format(mediafinal))
 print('Agora é com você professor!!')
