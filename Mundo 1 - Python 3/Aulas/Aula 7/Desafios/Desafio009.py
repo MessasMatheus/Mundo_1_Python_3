@@ -11,4 +11,4 @@ print('O valor atual do salário é de R${:.2f}, e terá um acréscimo de R${:.2
 salariofinal = salario + acrescimo
 
 print('Pronto o valor foi ajustado para R${:.2f}'.format(salariofinal))
-print('Obrigado!')
+print('Obrigado!!')
